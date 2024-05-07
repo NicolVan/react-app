@@ -1,0 +1,122 @@
+.container{
+    width: 500px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #A68868,#E3C39D )  ;
+    align-items: center;
+    box-shadow:  5px 5px 8px 5px ;
+}
+
+#search{
+    width: 30px;
+    height: 30px;
+    
+}
+.cityInput{
+    margin-left: 10px;
+    text-align: center;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #A4B5C4;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.top-bar{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+}
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 50px;
+    background-color: #A4B5C4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #071739;
+    font-size: 20px;
+}
+.weather_image{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#Img_weather{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+.weather-temp{
+   color: whitesmoke;
+   align-items: center;
+   text-align: center;
+   font-size: 30px;
+}
+.weather-location{
+    color: whitesmoke;
+    text-align: center;
+    font-size:  30px;
+    margin-top: 5px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.humidity-percent{
+    color: whitesmoke;
+    font-size: 30px;
+    display: grid;
+    margin-left: 10px;
+    text-align: center;
+    align-items: center;
+}
+.wind_text{
+    color: whitesmoke;
+    font-size: 30px;
+}
+#wind{
+    width:80px;
+    height: 70px;
+    align-items: center;
+  
+}
+.humidity_name{
+    color: whitesmoke;
+    font-size: 30px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+   
+}
+.wind_number{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.data{
+    display: grid;
+    grid-template-columns: 150px 150px ;
+    grid-template-rows: 100px 100px ;
+    justify-content: center;
+    width:500px;
+    height: 300px;
+}
